@@ -1,0 +1,26 @@
+{
+  "name": "0x-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "tslint --format stylish --project . --exclude **/src/generated_contract_wrappers/**/*",
+    "watch": "cross-env tsc -w",
+    "build": "cross-env tsc",
+    "clean": "shx rm -rf lib",
+    "scenario:fill_order_erc20": "cross-env yarn build && node ./lib/scenarios/fill_order_erc20.js",
+    "scenario:test_order_erc20": "cross-env yarn build && node ./lib/scenarios/test_order_erc20.js"
+  },
+  "dependencies": {
+    "0x.js": "^7.0.2",
+    "@0x/contract-addresses": "^3.2.0",
+    "@0x/mesh-rpc-client": "^6.1.1-beta",
+    "@0x/subproviders": "^5.0.4",
+    "@0x/utils": "^4.5.2",
+    "@0x/web3-wrapper": "^6.0.13",
+    "cross-env": "^6.0.3"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.2"
+  }
+}
