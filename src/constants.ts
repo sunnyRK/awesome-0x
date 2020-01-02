@@ -1,8 +1,9 @@
-import {BigNumber} from '0x.js';
+import { BigNumber } from '@0x/utils';
 
 export const UNLIMITED_ALLOWANCE_IN_BASE_UNITS = new BigNumber(2).pow(256).minus(1);
 export const DECIMALS = 18;
 export const NULL_ADDRESS = "0x0000000000000000000000000000000000000000";
+export const NULL_BYTES = '0x';
 export const ZERO = new BigNumber(0);
 
 export const ONE_SECOND_MS = 1000;

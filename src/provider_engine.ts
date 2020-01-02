@@ -1,5 +1,4 @@
-import { RPCSubprovider, Web3ProviderEngine } from '0x.js';
-import { MnemonicWalletSubprovider } from "@0x/subproviders";
+import { RPCSubprovider, Web3ProviderEngine, MnemonicWalletSubprovider } from '@0x/subproviders';
 import { providerUtils } from '@0x/utils';
 
 import { BASE_DERIVATION_PATH, MNEMONIC, NETWORK_CONFIGS } from './configs';
