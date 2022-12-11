@@ -24,7 +24,7 @@
         "cli-table": "^0.3.1",
         "copyfiles": "^2.1.1",
         "ethereumjs-util": "^6.1.0",
-        "express": "^4.17.1",
+        "express": "^4.17.3",
         "http": "^0.0.0",
         "lodash": "^4.17.15",
         "ora": "^3.4.0",
